@@ -50,7 +50,8 @@ const LoginPage = () => {
         >
           <Alert onClose={handleCloseAlert} severity="error">
             Due to current hosting settings, please allow approx. 30 seconds for
-            the backend server to start. Thank you for your patience!
+            the backend server to start, after clicking Login/Register. Thank
+            you for your patience!
           </Alert>
         </Snackbar>
         <Form />
