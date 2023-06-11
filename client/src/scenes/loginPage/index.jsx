@@ -44,7 +44,7 @@ const LoginPage = () => {
 
         <Snackbar
           open={showAlert}
-          autoHideDuration={10000}
+          autoHideDuration={30000}
           onClose={handleCloseAlert}
           anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
         >
